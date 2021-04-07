@@ -7,6 +7,7 @@
 - Maybe a train API?
 - Make it accessible for Marijn
 - Add Mouse Keys
+- Add standard appointments which you can drag and drop on the calendar
 
 ## 🔦 **Description**
 
