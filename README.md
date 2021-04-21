@@ -2,12 +2,10 @@
 
 ## Application
 
-- Calendar Date Picker
-- Drag and drop function
-- Maybe a train API?
+- Calendar Date Picker for NS
 - Make it accessible for Marijn
-- Add Mouse Keys
-- Add standard appointments which you can drag and drop on the calendar
+- Dark mode
+- Choose where to travel
 
 ## 🔦 **Description**
 The tests with Marijn showed that Marijn controls his computer with his left hand and trackpad. In addition, it has a specific for certain buttons, especially the buttons on the front of the keyboard. Think of the space bar and navigate with the arrows. My idea is to make a date picker with different train routes that Marijn uses most often. I am also going to program that different letters get a function, for example to select the date and then change it with the arrows. If I have enough time, I can also add the NS API, so that you select the date and time, then click on a destination and be forwarded to the NS website with the correct information.
@@ -19,7 +17,6 @@ The tests with Marijn showed that Marijn controls his computer with his left han
 - Express
 - Heavy Metal theme
 - Accessible datepicker
-- Drag and drop
 - Optional: NS API information
 
 ## 📦 **NPM Packages**
