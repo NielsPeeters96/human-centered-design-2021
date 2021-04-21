@@ -1,0 +1,198 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%);
+	font-family: 'Poppins';
+}
+
+.image img {
+    margin-left: 30%;
+    width: 40%;
+}
+
+#logo {
+    position: absolute;
+    width: 100px;
+    margin-left: 80%;
+    margin-top: -80px;
+}
+
+h1 {
+	margin: 20px 0px;
+	color: #313131;
+	font-size: 42px;
+	font-weight: 900;
+	text-align: center;
+}
+
+h1 span {
+	font-weight: 300;
+}
+
+.date-picker {
+	position: relative;
+	width: 100%;
+	max-width: 320px;
+	height: 60px;
+	background-color: #FFF;
+	margin: 30px auto;
+	box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.2);
+
+	cursor: pointer;
+	user-select: none;
+}
+
+.date-picker:hover {
+	background-color: #F3F3F3;
+}
+
+.date-picker .selected-date {
+	width: 100%;
+	height: 100%;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	color: #313131;
+	font-size: 28px;
+}
+
+.date-picker .dates {
+	display: none;
+	position: absolute;
+	top: 100%;
+	left: 0;
+	right: 0;
+
+	background-color: #FFF;
+}
+
+.date-picker .dates.active {
+	display: block;
+}
+
+.date-picker .dates .month {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	border-bottom: 2px solid #EEE;
+}
+
+.date-picker .dates .month .arrows {
+	width: 35px;
+	height: 35px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #313131;
+	font-size: 20px;
+}
+
+.date-picker .dates .month .arrows:hover {
+	background-color: #F3F3F3;
+}
+
+.date-picker .dates .month .arrows:active {
+	background-color: #00CA85;
+}
+
+.date-picker .dates .days {
+	display: grid;
+	grid-template-columns: repeat(7, 1fr);
+	height: 200px;
+}
+.date-picker .dates .days .day { 
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #313131;
+}
+.date-picker .dates .days .day.selected {
+	background-color: #00CA85;
+}
+
+.container a {
+    width: 50vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    padding: 1em 2em;
+    color: black;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border: 1px solid black;
+    margin-left: 25%;
+}
+
+.container a:hover {
+    opacity: .7;
+    background-color: #FBAB7E;
+}
+
+h2 {
+    color: #313131;
+	font-size: 42px;
+	font-weight: 900;
+	text-align: center;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.checkbox {
+	opacity: 0;
+	position: absolute;
+}
+
+#label {
+	background-color: #111;
+	border-radius: 50px;
+	cursor: pointer;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 5px;
+	position: relative;
+	height: 26px;
+	width: 50px;
+	transform: scale(1.5);
+}
+
+body.dark {
+    background-image: url("/img/metal.gif");
+    background-repeat:repeat;
+    
+}
+
+#nav_img.dark {
+    content:url("/img/metallica.jpg");
+    height: 70px;
+    width: 140px;
+}
+
+#navbar.dark {
+    background-color: black; 
+}
+
+body.dark a {
+    font-family: 'Metal Mania', cursive; 
+    color: red;
+}
+body.dark h1, body.dark h2, body.dark h3, body.dark label {
+    font-family: 'Metal Mania', cursive; 
+    color: black;
+}
+
+#label.dark {
+    background-color: white;
+}
+
+#zsm_btn.dark, #uur_btn.dark, #morgen_btn.dark {
+    background-color: black;
+    font-family: 'Metal Mania', cursive;
+}
