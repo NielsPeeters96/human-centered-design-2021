@@ -57,7 +57,21 @@ In the first test I met Marijn. The Wiki contains all data from this observation
 ### Test 2: Testing with Vasillis
 In this test I was a little later, because I had to get myself tested for Corona (later it turned out to be positive as well). Marijn had forgotten the agreement and Vasillis had taken it over and had tested our concepts as well as possible in the way Marijn would do it herself. During these tests I came up with an idea to make parts of his keyboard all the same button. So think for example on the left is from Eindhoven to Amsterdam, the right is from Amsterdam to Eindhoven and in the middle is other.
 
-Test 3:
+### Test 3: Final test
+
+
+## Exclusive Design Principles
+De situatie
+
+Ignore conventions
+Negeer standaard regels
+
+Prioritise identity
+Identiteit van gebruiker
+Identiteit van ontwerper
+
+Add nonsense
+Niet alleen functioneel
 
 ## 🔍 **Sources**
 
