@@ -38,17 +38,26 @@ The tests with Marijn showed that Marijn controls his computer with his left han
   npm install
 ```
 
-### Start local dev environment
-
-```bash
- npm run dev
-```
-
 ### Install Nodemon
 
 ```bash
  npm install -y Nodemon
 ```
+
+## Tests
+
+### Test 1: Datepicker and drag & drop
+In the first test I met Marijn. The Wiki contains all data from this observation. Below are the two prototypes that we as a group had made for him to test. During the first meeting I thought it was quite emotional, because I know someone with the same condition. Very nice to see that he leads his own life and has a son and wife.
+
+![image](https://user-images.githubusercontent.com/78353674/115525636-9217fa00-a28f-11eb-99d8-fe96097f1555.png)
+
+![image](https://user-images.githubusercontent.com/78353674/115526036-ed49ec80-a28f-11eb-9d6c-de23f05a0fdb.png)
+
+
+### Test 2: Testing with Vasillis
+In this test I was a little later, because I had to get myself tested for Corona (later it turned out to be positive as well). Marijn had forgotten the agreement and Vasillis had taken it over and had tested our concepts as well as possible in the way Marijn would do it herself. During these tests I came up with an idea to make parts of his keyboard all the same button. So think for example on the left is from Eindhoven to Amsterdam, the right is from Amsterdam to Eindhoven and in the middle is other.
+
+Test 3:
 
 ## 🔍 **Sources**
 
