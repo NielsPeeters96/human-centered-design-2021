@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Date Picker</title>
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+	<link href='https://fonts.googleapis.com/css?family=Metal Mania' rel='stylesheet'>
+	<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <nav id=navbar>
+	<h1>Marijn   <span>DATE</span>      PICKER</h1> <img src="https://customizedwear.nl/wp-content/uploads/2017/12/nederlandse-spoorwegen-ns-logo.png" id="logo"/>
+    <input type="checkbox" class="checkbox" id="chk"/>
+            <label id="label" for="chk">
+            </label>
+    </nav>
+
+    <h2>Select a place:</h2>
+    <form>
+            <div class="destination">
+                <label for="Start">Start:</label>
+                <select id="Start">
+                    <option>Amsterdam</option>
+                    <option>Leiden</option>
+                    <option>Utrecht</option>
+                    <option selected value="Eindhoven Centraal">Eindoven Centraal</option>
+                    <option>Gouda</option>
+                    <option>Rotterdam</option>
+                    <option>Oss</option>
+                    <option>Weert</option>
+                    <option>Venlo</option>
+                    <option>Den Bosch</option>
+                    <option>Breda</option>
+                </select>
+                <label for="End">Where to go?</label>
+                <select id="End">
+                    <option selected value="Amsterdam">Amsterdam </option>
+                    <option>Leiden</option>
+                    <option>Utrecht</option>
+                    <option>Eindoven Centraal</option>
+                    <option>Gouda</option>
+                    <option>Rotterdam</option>
+                    <option>Oss</option>
+                    <option>Weert</option>
+                    <option>Venlo</option>
+                    <option>Den Bosch</option>
+                    <option>Breda</option>
+                </select>
+                <label for="Time">Select a time:</label>
+                <input type="time" id="Time" name="Time">
+            </div>
+        </div>
+    </form>
+
+
+	<script src="main.js"></script>
+    <script src="dark.js"></script>
+    
+</body>
+</html>

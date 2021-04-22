@@ -149,8 +149,53 @@ h2 {
 	position: absolute;
 }
 
+form {
+	display: grid;
+	grid-template-columns: 250px;
+	justify-content: center;
+	font-size: 2em;
+}
+
+form select {
+	font-size: .7em;
+	position: relative;
+	width: 100%;
+	height: 60px;
+	background-color: #FFF;
+	box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.2);
+	max-width: 320px;
+
+	cursor: pointer;
+	user-select: none;
+}
+
+form select:hover {
+	background-color: #F3F3F3;
+	opacity: 0.8;
+}
+
+form input {
+	font-size: .5em;
+	position: relative;
+	width: 100%;
+
+	background-color: #FFF;
+	box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.2);
+	text-align: center;
+	max-width: 320px;
+	
+
+	cursor: pointer;
+	user-select: none;
+}
+
+form input:hover {
+	background-color: #F3F3F3;
+	opacity: 0.8;
+}
+
 #label {
-	background-color: #111;
+	background-color: #fff;
 	border-radius: 50px;
 	cursor: pointer;
 	display: flex;
@@ -161,38 +206,29 @@ h2 {
 	height: 26px;
 	width: 50px;
 	transform: scale(1.5);
+	margin-left: 100px;
 }
 
 body.dark {
-    background-image: url("/img/metal.gif");
-    background-repeat:repeat;
+    background-image: url("https://media.giphy.com/media/QZhS7lLODYFhXwF2ef/giphy.gif");
+	width: 100%;
     
 }
 
-#nav_img.dark {
-    content:url("/img/metallica.jpg");
-    height: 70px;
-    width: 140px;
-}
-
-#navbar.dark {
-    background-color: black; 
-}
-
 body.dark a {
-    font-family: 'Metal Mania', cursive; 
-    color: red;
+    font-family: 'Metal Mania';
+    color: rgb(0, 0, 0)
 }
-body.dark h1, body.dark h2, body.dark h3, body.dark label {
-    font-family: 'Metal Mania', cursive; 
-    color: black;
+body.dark h1, body.dark h2, body.dark label {
+    font-family: 'Metal Mania';
+    color: white
+}
+
+body.dark .container a {
+	border: 2px solid white;
+	background-color: white;
 }
 
 #label.dark {
     background-color: white;
-}
-
-#zsm_btn.dark, #uur_btn.dark, #morgen_btn.dark {
-    background-color: black;
-    font-family: 'Metal Mania', cursive;
 }
