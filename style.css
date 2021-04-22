@@ -156,6 +156,20 @@ form {
 	font-size: 2em;
 }
 
+form a {
+	text-decoration: none;
+	text-align: center;
+	margin-top: 50px;
+	border: 2px solid black;
+	box-shadow: 0px 3px 10px rgba(2, 2, 2, 1.2);
+	color: black;
+}
+
+form a:hover {
+	background-color: #F3F3F3;
+	opacity: 0.8;
+}
+
 form select {
 	font-size: .7em;
 	position: relative;
@@ -217,7 +231,8 @@ body.dark {
 
 body.dark a {
     font-family: 'Metal Mania';
-    color: rgb(0, 0, 0)
+    color: rgb(0, 0, 0);
+	font-size: 1.5em;
 }
 body.dark h1, body.dark h2, body.dark label {
     font-family: 'Metal Mania';
@@ -231,4 +246,10 @@ body.dark .container a {
 
 #label.dark {
     background-color: white;
+}
+
+body.dark form a {
+	font-family: 'Metal Mania';
+    color: white;
+	opacity: none;
 }
