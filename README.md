@@ -61,6 +61,9 @@ I gave a game to Marijn and kept track of how many attacks per minute he achieve
 
 ![image](https://user-images.githubusercontent.com/78353674/115704066-2d31d200-a36b-11eb-8e3e-02dcd0416883.png)
 
+## Design
+I made a NS Train date picker for Marijn where he can navigate with his keys.
+
 ## Exclusive Design Principles
 De situatie
 
