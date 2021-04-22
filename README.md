@@ -57,7 +57,7 @@ In this test I was a little later, because I had to get myself tested for Corona
 ### Test 3: Final test
 Een ervaren typiste heeft een typesnelheid van 350 aanslagen per minuut wat neerkomt op zo’n 70 woorden. Als je kunt blindtypen met tien vingers dan zou je 250 aanslagen en 50 woorden moeten kunnen halen. Even om de vergelijking te maken, als je geen training hebt gehad en je typt met twee vingers dan haal je ongeveer 140 aanslagen of 28 woorden per minuut. Een heel verschil dus. Zeker als je iets over wilt typen, want dan kom je als niet-getrainde typist gemiddeld niet verder dan 135 aanslagen of 27 woorden per minuut.
 
-Aan Marijn heb ik een spelletje gegeven en bijgehouden hoeveel aanslagen per minuut hij haalt. Daarnaast was het interessant om te zien dat hij heel veel moeite had aan de linkerkant van zijn toetsenbord en 1 letter intikken heel lastig vindt. Marijn heeft ... aanslagen per minuut gehaald en omdat hij heel veel moeite heeft ga ik verschillende toetsen koppelen aan 1 knop.
+I gave a game to Marijn and kept track of how many attacks per minute he achieves. It was also interesting to see that he had a lot of trouble on the left side of his keyboard and that typing 1 letter is very difficult. Marijn has ... strokes per minute and because he has a lot of difficulty I will link several keys to 1 button.
 
 ![image](https://user-images.githubusercontent.com/78353674/115704066-2d31d200-a36b-11eb-8e3e-02dcd0416883.png)
 
