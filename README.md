@@ -55,7 +55,11 @@ In the first test I met Marijn. The Wiki contains all data from this observation
 In this test I was a little later, because I had to get myself tested for Corona (later it turned out to be positive as well). Marijn had forgotten the agreement and Vasillis had taken it over and had tested our concepts as well as possible in the way Marijn would do it herself. During these tests I came up with an idea to make parts of his keyboard all the same button. So think for example on the left is from Eindhoven to Amsterdam, the right is from Amsterdam to Eindhoven and in the middle is other.
 
 ### Test 3: Final test
+Een ervaren typiste heeft een typesnelheid van 350 aanslagen per minuut wat neerkomt op zo’n 70 woorden. Als je kunt blindtypen met tien vingers dan zou je 250 aanslagen en 50 woorden moeten kunnen halen. Even om de vergelijking te maken, als je geen training hebt gehad en je typt met twee vingers dan haal je ongeveer 140 aanslagen of 28 woorden per minuut. Een heel verschil dus. Zeker als je iets over wilt typen, want dan kom je als niet-getrainde typist gemiddeld niet verder dan 135 aanslagen of 27 woorden per minuut.
 
+Aan Marijn heb ik een spelletje gegeven en bijgehouden hoeveel aanslagen per minuut hij haalt. Daarnaast was het interessant om te zien dat hij heel veel moeite had aan de linkerkant van zijn toetsenbord en 1 letter intikken heel lastig vindt. Marijn heeft ... aanslagen per minuut gehaald en omdat hij heel veel moeite heeft ga ik verschillende toetsen koppelen aan 1 knop.
+
+![image](https://user-images.githubusercontent.com/78353674/115704066-2d31d200-a36b-11eb-8e3e-02dcd0416883.png)
 
 ## Exclusive Design Principles
 De situatie
