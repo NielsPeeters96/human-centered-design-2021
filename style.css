@@ -212,3 +212,10 @@ form input:hover {
 	color: white;
 	margin-top: 20px;
 }
+
+#navbar p {
+	color: white;
+	position: absolute;
+	margin-top: 20px;
+	margin-left: 20%;
+}
