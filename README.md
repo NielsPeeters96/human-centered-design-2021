@@ -55,7 +55,14 @@ In the first test I met Marijn. The Wiki contains all data from this observation
 In this test I was a little later, because I had to get myself tested for Corona (later it turned out to be positive as well). Marijn had forgotten the agreement and Vasillis had taken it over and had tested our concepts as well as possible in the way Marijn would do it herself. During these tests I came up with an idea to make parts of his keyboard all the same button. So think for example on the left is from Eindhoven to Amsterdam, the right is from Amsterdam to Eindhoven and in the middle is other.
 
 ### Test 3: Final test
+An experienced typist has a typing speed of 350 strokes per minute, which equates to about 70 words. If you can blind type with ten fingers, you should be able to get 250 touches and 50 words. Just to make the comparison, if you have not had any training and you type with two fingers then you get about 140 strokes or 28 words per minute. Quite a difference. Especially if you want to retype something, because as an untrained typist you will not get more than 135 strokes or 27 words per minute on average.
 
+I gave a game to Marijn and kept track of how many attacks per minute he achieves. It was also interesting to see that he had a lot of trouble on the left side of his keyboard and that typing 1 letter is very difficult. Marijn has 33 strokes per minute and because he has a lot of difficulty I will link several keys to 1 button.
+
+![image](https://user-images.githubusercontent.com/78353674/115704066-2d31d200-a36b-11eb-8e3e-02dcd0416883.png)
+
+## Design
+I made a NS Train date picker for Marijn where he can navigate with his keys.
 
 ## Exclusive Design Principles
 De situatie
