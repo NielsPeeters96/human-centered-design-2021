@@ -211,3 +211,8 @@ form input:hover {
 	color: white;
 	margin-top: 20px;
 }
+
+.skelet {
+	position: absolute;
+	margin-left: 35%;
+}
