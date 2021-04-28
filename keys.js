@@ -11,13 +11,17 @@ document.addEventListener('keyup', (event) => {
         case 'm':
         case 'l':
         case ',':
-        window.location.replace('https://www.ns.nl/reisplanner/#/?vertrek=Eindhoven%20Centraal&vertrektype=treinstation&aankomst=Amsterdam%20Centraal&aankomsttype=treinstation&type=vertrek&tijd=2021-4-27-T07:00')
+        const datum = localStorage.getItem('datum')
+        if (datum) {
+            window.location.replace(`https://www.ns.nl/reisplanner/#/?vertrek=Eindhoven%20Centraal&vertrektype=treinstation&aankomst=Amsterdam%20Centraal&aankomsttype=treinstation&type=vertrek&tijd=${datum}-T07:00`)
+        }
+        else {window.location.replace('https://www.ns.nl/reisplanner/#/?vertrek=Eindhoven%20Centraal&vertrektype=treinstation&aankomst=Amsterdam%20Centraal&aankomsttype=treinstation&type=vertrek&tijd=null-T18:00')}
         break;
         case 's':
         case 'x':
         case 'd':
         case 'c':
-        window.location.replace('https://www.ns.nl/reisplanner/#/?vertrek=Eindhoven%20Centraal&vertrektype=treinstation&aankomst=Amsterdam%20Centraal&aankomsttype=treinstation&type=vertrek&tijd=2021-4-27-T18:00')
+        window.location.replace('https://www.ns.nl/reisplanner/#/?vertrek=Eindhoven%20Centraal&vertrektype=treinstation&aankomst=Amsterdam%20Centraal&aankomsttype=treinstation&type=vertrek&tijd=null-T18:00')
         break;    
         case 'g':
         case 'v':

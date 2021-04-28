@@ -1,5 +1,5 @@
 const date_picker_element = document.querySelector('.date-picker');
-const selected_date_element = document.querySelector('.date-picker .selected-date');
+let selected_date_element = document.querySelector('.date-picker .selected-date');
 const dates_element = document.querySelector('.date-picker .dates');
 const mth_element = document.querySelector('.date-picker .dates .month .mth');
 const next_mth_element = document.querySelector('.date-picker .dates .month .next-mth');
@@ -69,6 +69,7 @@ function populateDates (e) {
 		const day_element = document.createElement('div');
 		day_element.classList.add('day');
 		day_element.textContent = i + 1;
+		day_element.setAttribute('data-datum', `2021-4-${i+1}`)
 		
 		if (selectedDay == (i + 1) && selectedYear == year && selectedMonth == month) {
 			day_element.classList.add('selected');
@@ -117,6 +118,7 @@ function formatDate (d) {
 }
 
 document.addEventListener('keyup', (event) => {
+	const current = document.querySelector("#navbar > div.date-picker > div.dates.active > a > div > div.day.selected")
 	switch(event.key) {
 		case 'r':
 		case 't':
@@ -130,10 +132,16 @@ document.addEventListener('keyup', (event) => {
 		goToPrevMonth()
 		break;
 		case 'ArrowRight':
-		// code om naar rechts te navigeren
+		current.classList.remove('selected')
+		current.nextElementSibling.classList.add('selected')
 		break;
 		case 'ArrowLeft':
-		// code om naar links te navigeren
+		current.classList.remove('selected')
+		current.previousElementSibling.classList.add('selected')
+		break;
+		case 'Enter':
+		window.localStorage.setItem('datum', current.getAttribute('data-datum'))
+		window.location.replace('travel.html')
 		break;
 		default:
 			return

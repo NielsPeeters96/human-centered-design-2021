@@ -11,8 +11,8 @@ body {
 }
 
 .image img {
-    margin-left: 30%;
-    width: 40%;
+    margin-left: 35%;
+    width: 30%;
 }
 
 #logo {
@@ -224,7 +224,6 @@ form input:hover {
 
 p {
 	text-align: center;
-	margin-top: 20px;
-	font-size: 1.5em;
+	margin-top: 10px;
 	font-weight: 500;
 }
