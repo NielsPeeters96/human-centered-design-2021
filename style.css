@@ -203,7 +203,7 @@ form input:hover {
 
 .container p {
 	color: white;
-	margin-left: 25%;
+
 	margin-top: 20px;
 }
 
@@ -214,5 +214,17 @@ form input:hover {
 
 .skelet {
 	position: absolute;
-	margin-left: 35%;
+	margin-left: 25%;
+	width: 100%;
+}
+
+#navbar p {
+	color: white;
+}
+
+p {
+	text-align: center;
+	margin-top: 20px;
+	font-size: 1.5em;
+	font-weight: 500;
 }
