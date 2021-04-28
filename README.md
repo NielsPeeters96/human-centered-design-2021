@@ -64,19 +64,16 @@ I gave a game to Marijn and kept track of how many attacks per minute he achieve
 ## Design
 I made a NS Train date picker for Marijn where he can navigate with his keys.
 
+![image](https://user-images.githubusercontent.com/78353674/116370871-1d067080-a80b-11eb-9786-4385ddf1b686.png)
+
 ## Exclusive Design Principles
-De situatie
-
-Ignore conventions
-Negeer standaard regels
-
-Prioritise identity
-Identiteit van gebruiker
-Identiteit van ontwerper
-
-Add nonsense
-Niet alleen functioneel
-
-## 🔍 **Sources**
+1. Provide a unique experience
+2. Ignore situation
+3. Be inconsistent/innovative
+4. Take control
+5. Offer the best possible solution
+6. Prioritise identity
+7. Add Nonsense
 
 ## 🔐 **License**
+This project is from Niels Peeters student Web Design and Development on HvA
