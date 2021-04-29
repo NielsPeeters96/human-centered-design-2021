@@ -41,6 +41,10 @@ document.addEventListener('keyup', (event) => {
         case '0':
         window.location.replace('/')
         break;
+        case 'z':
+        case 'x':
+        window.location.replace('/')
+        break;
         default:
         return
     }
